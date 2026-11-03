@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "contract_version": "synthetic-v1",
+  "sites": [
+    {
+      "site_id": "alpha",
+      "label": "虚构站点 Alpha",
+      "property_id": "100000001",
+      "hostnames": [
+        "alpha.example.com"
+      ],
+      "timezone": "Asia/Shanghai",
+      "metrics": [
+        "activeUsers",
+        "sessions",
+        "screenPageViews",
+        "engagementRate"
+      ],
+      "dimensions": [
+        "date"
+      ],
+      "max_fetch_age_hours": 30,
+      "settling_hours": 48
+    },
+    {
+      "site_id": "beta",
+      "label": "虚构站点 Beta",
+      "property_id": "100000002",
+      "hostnames": [
+        "beta.example.com"
+      ],
+      "timezone": "America/New_York",
+      "metrics": [
+        "activeUsers",
+        "sessions",
+        "screenPageViews",
+        "engagementRate"
+      ],
+      "dimensions": [
+        "date"
+      ],
+      "max_fetch_age_hours": 30,
+      "settling_hours": 48
+    }
+  ]
+}

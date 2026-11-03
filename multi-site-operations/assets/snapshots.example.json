@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "contract_version": "synthetic-v1",
+  "data_mode": "demo",
+  "records": [
+    {
+      "site_id": "alpha",
+      "report_date": "2026-01-12",
+      "fetched_at": "2026-01-15T08:00:00Z",
+      "status": "ok",
+      "method": "data_api",
+      "query": {
+        "property_id": "100000001",
+        "hostnames": [
+          "alpha.example.com"
+        ],
+        "timezone": "Asia/Shanghai",
+        "metrics": [
+          "activeUsers",
+          "sessions",
+          "screenPageViews",
+          "engagementRate"
+        ],
+        "dimensions": [
+          "date"
+        ]
+      },
+      "values": {
+        "activeUsers": 120,
+        "sessions": 155,
+        "screenPageViews": 286,
+        "engagementRate": 0.6
+      },
+      "pagination_complete": true,
+      "quality_metadata_available": true,
+      "quality": {
+        "subjectToThresholding": false,
+        "dataLossFromOtherRow": false,
+        "samplingMetadatas": [],
+        "dataTruncationReasons": [],
+        "restrictedMetrics": [],
+        "emptyReason": null
+      }
+    },
+    {
+      "site_id": "beta",
+      "report_date": "2026-01-12",
+      "fetched_at": "2026-01-15T08:00:00Z",
+      "status": "ok",
+      "method": "data_api",
+      "query": {
+        "property_id": "100000002",
+        "hostnames": [
+          "beta.example.com"
+        ],
+        "timezone": "America/New_York",
+        "metrics": [
+          "activeUsers",
+          "sessions",
+          "screenPageViews",
+          "engagementRate"
+        ],
+        "dimensions": [
+          "date"
+        ]
+      },
+      "values": {
+        "activeUsers": 0,
+        "sessions": 0,
+        "screenPageViews": 0,
+        "engagementRate": 0
+      },
+      "pagination_complete": true,
+      "quality_metadata_available": true,
+      "quality": {
+        "subjectToThresholding": false,
+        "dataLossFromOtherRow": false,
+        "samplingMetadatas": [],
+        "dataTruncationReasons": [],
+        "restrictedMetrics": [],
+        "emptyReason": null
+      }
+    }
+  ]
+}
