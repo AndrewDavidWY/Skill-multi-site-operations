@@ -1,0 +1,4 @@
+interface:
+  display_name: "多站点运营数据整合与日报"
+  short_description: "统一多站点 GA4 数据口径，核对权限、采集与时效，再生成可信日报。"
+  default_prompt: "使用 $multi-site-operations 整理站点数据契约并生成注明覆盖、时效和异常的运营日报。"
